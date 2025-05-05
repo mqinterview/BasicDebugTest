@@ -21,7 +21,7 @@ public class GoogleSearchTest {
 
     @Test
     public void testGoogleSearch() {
-    	driver.get("https://duckduckgo.com");
+    	driver.get("https://www.google.com");
 
         WebElement searchBox = driver.findElement(By.id("q"));
         searchBox.sendKeys("web.webex.com");
